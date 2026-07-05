@@ -138,6 +138,45 @@ transition:.3s;
 
 nav ul li a:hover{
 color:#ffd54f;
+}.categories{
+padding:60px 20px;
+text-align:center;
+}
+
+.categories h2{
+font-size:34px;
+color:#0d6efd;
+margin-bottom:40px;
+}
+
+.category-container{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+width:250px;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#0d6efd;
+margin-bottom:15px;
+}
+
+.card p{
+color:#555;
+line-height:1.6;
 }
 </style>
 
@@ -164,7 +203,36 @@ color:#ffd54f;
     </p>
 
     <a href="#" class="btn">Start Learning</a>
+</section><section class="categories">
+
+<h2>Popular Exam Categories</h2>
+
+<div class="category-container">
+
+<div class="card">
+<h3>🏦 Banking</h3>
+<p>IBPS PO, Clerk, SBI PO, SBI Clerk, RBI Assistant & More</p>
+</div>
+
+<div class="card">
+<h3>📝 SSC</h3>
+<p>SSC CGL, CHSL, MTS, CPO, GD & Other SSC Exams</p>
+</div>
+
+<div class="card">
+<h3>🚆 Railway</h3>
+<p>RRB NTPC, Group D, ALP, Technician & More</p>
+</div>
+
+<div class="card">
+<h3>📚 More Exams</h3>
+<p>UP Police, CTET, UPSC, State PCS and many more...</p>
+</div>
+
+</div>
+
 </section>
+  
   
 <h1>PrepNest</h1>
 <p>Your Trusted Banking & SSC Preparation Platform</p>
